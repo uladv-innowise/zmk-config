@@ -268,10 +268,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q                &kp W            &kp E            &kp R              &kp T                 &kp Y          &kp U              &kp I                      &kp O            &kp P                   &none
-&none  &hrm LEFT_CONTROL A  &hrm LEFT_ALT S  &hrm LEFT_GUI D  &hrm LEFT_SHIFT F  &kp G                 &kp H          &hrm LEFT_SHIFT J  &hrm LEFT_GUI K            &hrm LEFT_ALT L  &hrm LEFT_CONTROL SEMI  &none
-&none  &kp Z                &kp X            &kp C            &kp V              &kp B                 &kp N          &kp M              &kp COMMA                  &kp DOT          &kp FSLH                &none
-                                             &kp LGUI         &lt 1 SPACE        &mt LEFT_SHIFT TAB    &kp BACKSPACE  &lt 2 ENTER        &mt LEFT_CONTROL LEFT_ALT
+&none  &kp Q                &kp W            &kp E            &kp R              &kp T                   &kp Y          &kp U              &kp I                      &kp O            &kp P                   &none
+&none  &hrm LEFT_CONTROL A  &hrm LEFT_ALT S  &hrm LEFT_GUI D  &hrm LEFT_SHIFT F  &kp G                   &kp H          &hrm LEFT_SHIFT J  &hrm LEFT_GUI K            &hrm LEFT_ALT L  &hrm LEFT_CONTROL SEMI  &none
+&none  &kp Z                &kp X            &kp C            &kp V              &kp B                   &kp N          &kp M              &kp COMMA                  &kp DOT          &kp FSLH                &none
+                                             &kp LGUI         &lt 1 TAB          &mt LEFT_SHIFT SPACE    &kp BACKSPACE  &lt 2 ENTER        &mt LEFT_CONTROL LEFT_ALT
             >;
         };
 
@@ -286,9 +286,9 @@
 
         func_layer {
             bindings = <
-&none  &none       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none  &none      &none           &none                  &none                    &none                     &mcr_screenshot  &none
-&none  &kp C_PREV  &kp C_PP              &kp C_NEXT            &none  &kp F12    &kp LEFT_ARROW  &kp DOWN               &kp UP_ARROW             &kp RIGHT_ARROW           &mcr_video       &none
-&none  &kp K_MUTE  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none  &none      &none           &mcr_view_all_windows  &mcr_switch_window_left  &mcr_switch_window_right  &none            &trans
+&none  &none       &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none  &none      &none           &none                  &none         &none            &mcr_screenshot  &none
+&none  &kp C_PREV  &kp C_PP              &kp C_NEXT            &none  &kp F12    &kp LEFT_ARROW  &kp DOWN               &kp UP_ARROW  &kp RIGHT_ARROW  &mcr_video       &none
+&none  &kp K_MUTE  &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none  &none      &none           &mcr_view_all_windows  &kp COMMA     &kp DOT          &kp QUESTION     &trans
                                          &none                 &none  &none      &none           &none
             >;
         };
